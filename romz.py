@@ -2,7 +2,7 @@
 # -*- coding: utf-8
 # Created By Ramdhan Ramadhian
 # Segitunya lu pengen recode pake dec segala
-fb = '570025450621946'
+fb = '315723919935349'
 import os,sys,time,datetime,random,hashlib,re,threading,json,cookielib,requests,uuid,itertools,subprocess
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
@@ -30,12 +30,13 @@ ip = requests.get('https://api.ipify.org').text
 # Dilarang untuk mengubah #
 def logo():
 	print("""                   
-\033[0;91m
- __________ ________      _____  __________
- \______   \\\_____  \    /     \ \____    /
-  |       _/ /   |   \  /  \ /  \  /     / 
-  |    |   \/    |    \/    Y    \/     /_ 
-  |____|_  /\_______  /\____|__  /_______ \ \n         \/         \/         \/        \/ \033[0;97m\n          * \033[0;93mgithub.com/Mark-Zuck \033[0;97m*\n""""") 
+\033[0;96m
+  _______ .__ .__   
+ / _____/ _____ _____ | | | |  
+ \_____ \ / \\__ \ | | | |  
+ / \ YY \/ __ \| |_| |__
+/_______ /__|_| (____ /____/____/
+        \/ \/ ​​\/     n         \/         \/         \/        \/ \033[0;97m\n          * \033[0;94mBy Ramdhan Ramadhian \033[0;97m*\n""""") 
   
  
 kom = 'login'
