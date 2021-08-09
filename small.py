@@ -35,7 +35,7 @@ def logo():
  \_____  \ /     \\__  \ |  | |  |  
  /        \  Y Y  \/ __ \|  |_|  |__
 /_______  /__|_|  (____  /____/____/
-        \/      \/     \/      \033[0;91m\n          = \033[0;95mBy Ramdhan Ramadhian \033[0;91m=\n""""") 
+        \/      \/     \/      \033[0;91m\n          ☆ \033[0;95mBy Ramdhan Ramadhian \033[0;91m☆\n""""") 
   
  
 kom = 'Ganteng Banget😍'
@@ -694,9 +694,7 @@ def x_():
 			tricker.write(token)
 			tricker.close()
 			print ("\033[0;92m √ Login Success ")
-                        jalan('\033[1;96mSUBSCRIBE DULU CHANNEL INI AGAR TOOL BERJALAN!')
-                        os.system('xdg-open http://www.youtube.com/c/TutorialityStudio')
-			login_xx()
+  			login_xx()
 		except KeyError:
 			print ("\033[0;91m !: Token Invalid") 
 			sys.exit()
