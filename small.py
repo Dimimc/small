@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 # -*- coding: utf-8
 # Created By Ramdhan Ramadhian
 # Segitunya lu pengen recode pake dec segala
@@ -30,13 +30,12 @@ ip = requests.get('https://api.ipify.org').text
 # Dilarang untuk mengubah #
 def logo():
 	print("""                   
-\033[0;96m
-  _______ .__ .__   
- / _____/ _____ _____ | | | |  
- \_____ \ / \\__ \ | | | |  
- / \ YY \/ __ \| |_| |__
-/_______ /__|_| (____ /____/____/
-        \/ \/ ​​\/     n         \/         \/         \/        \/ \033[0;97m\n          * \033[0;94mBy Ramdhan Ramadhian \033[0;97m*\n""""") 
+\033[0;95m  _________              .__  .__   
+ /   _____/ _____ _____  |  | |  |  
+ \_____  \ /     \\__  \ |  | |  |  
+ /        \  Y Y  \/ __ \|  |_|  |__
+/_______  /__|_|  (____  /____/____/
+        \/      \/     \/      \033[0;91m\n          = \033[0;95mBy Ramdhan Ramadhian \033[0;91m=\n""""") 
   
  
 kom = 'Waduh Gantengnya 😍'
@@ -687,14 +686,14 @@ def x_():
 	except (KeyError,IOError):
 		os.system('clear')
 		logo()
-		token = raw_input(" ?: token : ")
+		token = raw_input(" ?: TOKEN : ")
 		try:
 			otw = requests.get('https://graph.facebook.com/me?access_token='+token)
 			a = json.loads(otw.text)
 			tricker = open("login.txt", 'w')
 			tricker.write(token)
 			tricker.close()
-			print ("\033[0;92m √ login berhasil ")
+			print ("\033[0;92m √ Login Success ")
 			login_xx()
 		except KeyError:
 			print ("\033[0;91m !: Token Invalid") 
