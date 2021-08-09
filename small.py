@@ -30,7 +30,7 @@ ip = requests.get('https://api.ipify.org').text
 # Dilarang untuk mengubah #
 def logo():
 	print("""                   
-\033[0;95m  _________              .__  .__   
+\033[0;96m  _________              .__  .__   
  /   _____/ _____ _____  |  | |  |  
  \_____  \ /     \\__  \ |  | |  |  
  /        \  Y Y  \/ __ \|  |_|  |__
@@ -108,7 +108,7 @@ def menu():
 		print ('\033[0;91m !: Tidak Ada Koneksi')
 		sys.exit()
 	logo()
-	print"\033[0;93m Helo\033[0;92m " +Memek
+	print"\033[0;93m Helo\033[0;92m " +ngentod
 	print
 	print" \033[0;96m01. Crack From Public"
 	print" 02. Crack From Followers"
