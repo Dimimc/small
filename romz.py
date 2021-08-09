@@ -39,7 +39,7 @@ def logo():
         \/ \/ ​​\/     n         \/         \/         \/        \/ \033[0;97m\n          * \033[0;94mBy Ramdhan Ramadhian \033[0;97m*\n""""") 
   
  
-kom = 'login'
+kom = 'Waduh Gantengnya 😍'
 id = []
 cp = []
 ok = []
