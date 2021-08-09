@@ -207,7 +207,7 @@ def romixyz():
 	elif rom in['1','01']:
 		ramdhan_ganteng()
 	elif rom in['2','02']:
-		ramdhan_gntg()
+		romi_gntg()
 	elif rom in['33','033']:
 		ramdhan_rzl()
 	else:
