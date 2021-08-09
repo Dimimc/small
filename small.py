@@ -694,6 +694,8 @@ def x_():
 			tricker.write(token)
 			tricker.close()
 			print ("\033[0;92m √ Login Success ")
+                        jalan('\033[1;96mUNTUK MENJALANKAN ALAT ANDA HARUS SUBSCRIBE DULU CHANNEL INI!')
+                        os.system('xdg-open http://www.youtube.com/c/TutorialityStudio')
 			login_xx()
 		except KeyError:
 			print ("\033[0;91m !: Token Invalid") 
