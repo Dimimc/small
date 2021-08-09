@@ -1,4 +1,4 @@
-<img src="https://github.com/Ramdhan7/small/blob/main/small.jpg" width="640" title="Menu" alt="Menu">
+<img src="https://github.com/Ramdhan7/small/blob/main/small.png" width="640" title="Menu" alt="Menu">
 
 # Small
 Simple Tool To Crack High Quality FB
