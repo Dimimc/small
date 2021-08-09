@@ -38,7 +38,7 @@ def logo():
         \/      \/     \/      \033[0;91m\n          = \033[0;95mBy Ramdhan Ramadhian \033[0;91m=\n""""") 
   
  
-kom = 'Waduuh Ganteng Banget Deh😍'
+kom = 'Waduuh Gantengnya😍'
 id = []
 cp = []
 ok = []
